@@ -1,15 +1,4 @@
-# Node.js with Angular
-- task: Kubernetes@1
-  inputs:
-    connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: 'Microsoft Azure(5c1e7bcb-ebaa-4f9a-8dd7-3f4ce0eb4320)'
-    azureResourceGroup: 'gviz'
-    kubernetesCluster: 'excelra1'
-    useClusterAdmin: true
-    namespace: 'default'
-    command: 'apply'
-    secretType: 'dockerRegistry'
-    containerRegistryType: 'Azure Container Registry'
+
 # Build a Node.js project that uses Angular.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
