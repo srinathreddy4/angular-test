@@ -17,6 +17,7 @@ spec:
       containers:
       - name: hello
         image: dockerimagesregistry.azurecr.io/ckadarla/angular-test:292
+        imagePullPolicy: Always 
         resources:
           requests:
             cpu: 100m
@@ -24,3 +25,5 @@ spec:
         ports:
         - containerPort: 8080
           name: nodejs-port
+      imagePullSecrets:
+      - name: acrsecret
