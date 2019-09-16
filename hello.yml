@@ -21,9 +21,12 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 100Mi
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
         ports:
-        - containerPort: 8080
-          name: nodejs-port
+        - containerPort: 80
+          name: hello-master
       imagePullSecrets:
       - name: acrsecret
