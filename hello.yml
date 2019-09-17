@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: dockerimagesregistry.azurecr.io/ckadarla/angular-test:299
+        image: 90306/angulartest:tagname:299
         imagePullPolicy: Always 
         resources:
           requests:
