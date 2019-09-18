@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: ckadarla/angular-test
+        image: ckadarla/angular-test:376
         imagePullPolicy: Always 
         resources:
           requests:
