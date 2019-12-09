@@ -38,6 +38,7 @@ steps:
      hello.yml
      hello-service.yml
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
+  enabled: false  
 
 - task: PublishBuildArtifacts@1
   inputs:
